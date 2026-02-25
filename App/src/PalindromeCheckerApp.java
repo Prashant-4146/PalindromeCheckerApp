@@ -1,8 +1,20 @@
 public class PalindromeCheckerApp {
-    public static void main (String[] args){
-        System.out.println("welcome");
-        System.out.println("step class 3  4th sem");
-        System.out.println("Modify this logic to usecase  2");
+    // Application Name
+    private static final String APP_NAME = "Palindrome Checker App";
+    // Application Version
+    private static final String APP_VERSION = "1.0";
 
+    public static void main(String[] args) {
+        // UC1: Application Entry & Welcome Message
+        // Display welcome message and app details at startup
+        
+        System.out.println("================================");
+        System.out.println("Welcome to " + APP_NAME);
+        System.out.println("Version: " + APP_VERSION);
+        System.out.println("================================");
+        System.out.println();
+        System.out.println("Application started successfully!");
+        System.out.println("Ready to check palindromes...");
+        System.out.println();
     }
 }
